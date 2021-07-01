@@ -147,7 +147,8 @@ a.primary-btn:hover {
   color: var(--primary-color);
 }
 
-header.nav-active li.nav-link a:not(.primary-btn) {
+header.nav-active li.nav-link a:not(.primary-btn),
+header.nav-active i.fa-bars {
   color: black;
 }
 
@@ -176,11 +177,9 @@ header.nav-active li.nav-link a:not(.primary-btn) {
   }
 
   ul.nav {
-    display: none;
-  }
-
-  ul.nav {
     padding-top: 20px;
+
+    display: none;
   }
   ul li {
     width: 100%;
